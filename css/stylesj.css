@@ -1,0 +1,73 @@
+/* 
+Author: Jordan Valentino
+	Date: 5/5/26
+	Fie name: stylesj.css
+*/
+
+	
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff5f0;
+        }
+
+        header {
+            background: #ff5e3a; /* sunset orange */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #ff7f50;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .book {
+            background: white;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 5px solid #ff5e3a;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        button {
+            background: #ff5e3a;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        footer {
+            background: #ff5e3a;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        #chatbox {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 20px;
+            background: white;
+        }
+    </style>
